@@ -1,17 +1,11 @@
-
-//import './App.css';
-
-import Home from "./Component/Home";
-
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { NavBar } from "./Component/NavBar";
 function App() {
-
-    return (
+  return (
     <div className="App">
-
-      <Home/>
-     
+      <NavBar />
     </div>
   );
 }
-
 export default App;

@@ -19,7 +19,10 @@ export const NavBar = () => {
                 Home
               </Nav.Link>
               <Nav.Link href="/" className={" navbar-link"}>
-                About
+                Products
+              </Nav.Link>
+              <Nav.Link href="/" className={"navbar-link"}>
+              About
               </Nav.Link>
               <Nav.Link href="/" className={"navbar-link"}>
                 Contact
@@ -38,15 +41,14 @@ export const NavBar = () => {
                 </a>
               </div>
               <a href="#">
+                  <img src={`<a target="_blank" href="https://icons8.com/icon/34105/person">Person</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>`} alt="" />
+                </a>
+              <a href="#">
                 <button className="vvd">
                   <span>Sign in</span>
                 </button>
               </a>
-              <a href="#">
-                <button className="vvd">
-                  <span>Sign up</span>
-                </button>
-              </a>
+             
             </span>
           </Navbar.Collapse>
         </Container>
